@@ -16,22 +16,6 @@ Bem-vindo ao repositório do **Agente de IA Google**, um laboratório aberto par
 
 ---
 
-## 🧠 Arquitetura em alto nível
-```mermaid
-graph TD
-    A[Entrada do usuário] --> B{Intenção?}
-    B -->|Pesquisa web| C[Conector Google]
-    B -->|Documento interno| D[Pipeline de PDFs]
-    C --> E[Processamento de linguagem]
-    D --> E
-    E --> F[Modelo de geração]
-    F --> G[Resposta contextualizada]
-```
-
-Essa arquitetura modular permite combinar dados externos com fontes internas, mantendo controle sobre qualidade e segurança da informação.
-
----
-
 ## 🚀 Como começar
 1. Clone o repositório:
    ```bash
